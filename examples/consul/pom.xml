@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-consul</artifactId>
     <name>Quarkus - Test Framework - Examples - Consul</name>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

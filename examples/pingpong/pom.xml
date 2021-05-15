@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-pingpong</artifactId>
     <name>Quarkus - Test Framework - Examples - Ping Pong</name>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

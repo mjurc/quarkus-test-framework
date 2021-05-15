@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-restclient</artifactId>
     <name>Quarkus - Test Framework - Examples - RestClient</name>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
