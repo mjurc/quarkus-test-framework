@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-consul</artifactId>
     <name>Quarkus - Test Framework - Examples - Consul</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

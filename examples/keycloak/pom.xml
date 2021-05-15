@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-keycloak</artifactId>
     <name>Quarkus - Test Framework - Examples - Keycloak</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

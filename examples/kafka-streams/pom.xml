@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-Kafka-streams</artifactId>
     <name>Quarkus - Test Framework - Examples - Kafka-Streams</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

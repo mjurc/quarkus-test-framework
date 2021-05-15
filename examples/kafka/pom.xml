@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-kafka</artifactId>
     <name>Quarkus - Test Framework - Examples - Kafka</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-microprofile</artifactId>
     <name>Quarkus - Test Framework - Examples - Microprofile</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

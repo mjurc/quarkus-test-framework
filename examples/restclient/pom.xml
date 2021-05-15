@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-restclient</artifactId>
     <name>Quarkus - Test Framework - Examples - RestClient</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

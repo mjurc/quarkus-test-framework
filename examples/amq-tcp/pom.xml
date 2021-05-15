@@ -9,6 +9,9 @@
     </parent>
     <artifactId>examples-amq-tcp</artifactId>
     <name>Quarkus - Test Framework - Examples - AMQ TCP</name>
+    <properties>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
